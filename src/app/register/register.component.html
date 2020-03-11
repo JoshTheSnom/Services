@@ -1,0 +1,7 @@
+<form>
+<input [(ngModel)]="username" name="username" type="Username" id="inputUsername" placeholder="Username" required>
+<input [(ngModel)]="email" name="email" type="email" id="inputEmail" placeholder="Email address" required>
+<input [(ngModel)]="password" name="password" type="password" id="inputPassword" placeholder="Password" required>
+<input [(ngModel)]="checkpassword" name="checkpassword" type="password" id="inputPasswordCheck" placeholder="Confirm password" required>
+<button name="submitButton" (click)="clickedButton()" type="submit">Register</button>
+</form>
